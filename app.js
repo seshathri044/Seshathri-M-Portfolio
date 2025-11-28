@@ -427,9 +427,7 @@ function Portfolio() {
     // Footer
     React.createElement('footer', { className: "py-8 px-4 border-t border-slate-800" },
       React.createElement('div', { className: "max-w-7xl mx-auto text-center text-gray-400" },
-        React.createElement('p', null, "© 2025 Seshathri M | Aspiring Software Developer"),
-        React.createElement('p', { className: "mt-2 text-sm" }, "Deployed on Netlify | All rights reserved")
-      )
+        React.createElement('p', null, "© 2025 Seshathri M | Aspiring Software Developer")      )
     )
   );
 }
