@@ -14,7 +14,7 @@ My professional portfolio showcasing projects, skills, and achievements.
 - Email: seshathri686@gmail.com
 - LinkedIn: [linkedin.com/in/seshathri-m](https://linkedin.com/in/seshathri-m)
 - GitHub: [github.com/seshathri044](https://github.com/seshathri044)
-```
+
 
 ---
 
