@@ -54,6 +54,7 @@ function Portfolio() {
       tech: ["Flutter", "Dart", "Clean Architecture","Provider"],
       description: "Flutter mobile application to Track expenses, manage income, view real-time analytics, and take control of your finances with a modern, user-friendly interface.",
       github: "https://github.com/seshathri044/expense-tracker-frontend",
+      
       highlights: ["Clean Architecture", "Responsive Design", "Provider State Management"]
     },
     {
@@ -79,6 +80,7 @@ function Portfolio() {
       live: "https://seshathri044.github.io/student-management-system-flutter-hive/",
       highlights: ["Clean Architecture", "Responsive Design", "CI/CD Pipeline"]
     }
+    
   ];
 
   const skills = {
@@ -219,72 +221,52 @@ function Portfolio() {
           className: "text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent" 
         }, "About Me"),
         
-        React.createElement('div', { className: "grid md:grid-cols-2 gap-8 items-start" },
+        React.createElement('div', { className: "grid md:grid-cols-2 gap-12 items-center" },
           React.createElement('div', { className: "space-y-6" },
             React.createElement('div', { 
-              className: "bg-slate-800/50 backdrop-blur-sm rounded-2xl p-6 border border-cyan-500/20" 
+              className: "bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 border border-cyan-500/20" 
             },
-              React.createElement('h3', { className: "text-2xl font-bold text-cyan-400 mb-3" }, "🎓 Education"),
-              React.createElement('div', { className: "text-gray-300 text-sm space-y-1" },
-                React.createElement('p', { className: "font-semibold text-base" }, "B.E. Computer Science Engineering"),
-                React.createElement('p', null, "Anna University"),
-                React.createElement('p', null, "Mangayarkarasi College of Engineering, Paravai"),
-                React.createElement('p', { className: "mt-2" },
-                  React.createElement('span', { className: "text-cyan-400 font-semibold" }, "CGPA: 7.97/10"),
-                  " | 2022-2026"
-                )
+              React.createElement('h3', { className: "text-2xl font-bold text-cyan-400 mb-4" }, "🎓 Education"),
+              React.createElement('p', { className: "text-gray-300 text-lg" },
+                "B.E. Computer Science Engineering",
+                React.createElement('br'),
+                "Anna University",
+                React.createElement('br'),
+                "Mangayarkarasi College of Engineering, Paravai",
+                React.createElement('br'),
+                React.createElement('span', { className: "text-cyan-400" }, "CGPA: 7.97/10"),
+                " | 2022-2026"
               )
             ),
             
             React.createElement('div', { 
-              className: "bg-slate-800/50 backdrop-blur-sm rounded-2xl p-6 border border-blue-500/20" 
+              className: "bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 border border-blue-500/20" 
             },
-              React.createElement('h3', { className: "text-2xl font-bold text-blue-400 mb-3" }, "💼 Experience"),
-              React.createElement('div', { className: "mb-3" },
-                React.createElement('p', { className: "text-gray-300 text-base font-semibold" },
-                  "Mobile Application Development Intern"
-                ),
-                React.createElement('p', { className: "text-gray-400 text-sm" },
-                  "Kartick IT Solutions | Jun 2025 - Aug 2025"
-                )
-              ),
-              React.createElement('div', { className: "space-y-1.5" },
-                React.createElement('p', { className: "text-gray-300 text-sm mb-2" }, 
-                  "Gained hands-on experience in Flutter development through self-directed learning and building production-ready personal projects:"
-                ),
-                React.createElement('ul', { className: "space-y-1.5" },
-                  [
-                    "Built a cross-platform Student Management System with Hive DB featuring CRUD operations and Clean Architecture",
-                    "Developed an e-commerce demo app (ShopEase Premium) with cart, checkout, and product listing features",
-                    "Implemented CI/CD pipelines using GitHub Actions for automated testing and deployment",
-                    "Applied state management patterns (Riverpod/Cubit) to improve code organization and scalability",
-                    "Successfully deployed multiple Flutter applications to web platforms (GitHub Pages, Netlify)"
-                  ].map((item, i) =>
-                    React.createElement('li', { key: i, className: "flex items-start gap-2 text-gray-300 text-xs leading-relaxed" },
-                      React.createElement('span', { className: "text-cyan-400 mt-0.5 flex-shrink-0" }, "▹"),
-                      React.createElement('span', null, item)
-                    )
-                  )
-                )
+              React.createElement('h3', { className: "text-2xl font-bold text-blue-400 mb-4" }, "💼 Experience"),
+              React.createElement('p', { className: "text-gray-300 text-lg" },
+                "Mobile Application Development Intern",
+                React.createElement('br'),
+                "Kartick IT Solutions | Jun 2025 - Aug 2025",
+                React.createElement('br'),
+                React.createElement('span', { className: "text-sm text-gray-400 mt-2 block" }, 
+                  "Developed production-ready Flutter applications while mastering Clean Architecture, state management, and CI/CD practices. Built a cross-platform Student Management System with Hive DB, an e-commerce app with full shopping features, and multiple interactive demos. Implemented automated testing pipelines and successfully deployed applications to web platforms."
               )
             )
           ),
 
           React.createElement('div', { 
-            className: "bg-gradient-to-br from-slate-800/50 to-blue-900/30 backdrop-blur-sm rounded-2xl p-6 border border-cyan-500/20" 
+            className: "bg-gradient-to-br from-slate-800/50 to-blue-900/30 backdrop-blur-sm rounded-2xl p-8 border border-cyan-500/20" 
           },
-            React.createElement('h3', { className: "text-2xl font-bold text-cyan-400 mb-4" }, "🚀 What I Do"),
-            React.createElement('ul', { className: "space-y-3 text-gray-300" },
+            React.createElement('h3', { className: "text-2xl font-bold text-cyan-400 mb-6" }, "🚀 What I Do"),
+            React.createElement('ul', { className: "space-y-4 text-gray-300 text-lg" },
               [
                 "Build production-ready backend systems with Spring Boot and REST APIs",
                 "Develop cross-platform mobile apps using Flutter with clean architecture",
-                "Implement secure authentication systems with JWT and Spring Security",
                 "Deploy and manage applications using Docker, CI/CD, and cloud platforms",
-                "Solve data structures & algorithms problems to strengthen problem-solving skills"
               ].map((item, i) =>
-                React.createElement('li', { key: i, className: "flex items-start gap-2 text-sm leading-relaxed" },
-                  React.createElement('span', { className: "text-cyan-400 mt-0.5 flex-shrink-0" }, "▹"),
-                  React.createElement('span', null, item)
+                React.createElement('li', { key: i, className: "flex items-start gap-3" },
+                  React.createElement('span', { className: "text-cyan-400 mt-1" }, "▹"),
+                  item
                 )
               )
             )
@@ -470,8 +452,6 @@ function Portfolio() {
   );
 }
 
-// Render the app - FIXED FOR NETLIFY
-ReactDOM.render(
-  React.createElement(Portfolio),
-  document.getElementById('root')
-);
+// Render the app
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(React.createElement(Portfolio));
