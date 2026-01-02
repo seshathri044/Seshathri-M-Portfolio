@@ -54,7 +54,6 @@ function Portfolio() {
       tech: ["Flutter", "Dart", "Clean Architecture","Provider"],
       description: "Flutter mobile application to Track expenses, manage income, view real-time analytics, and take control of your finances with a modern, user-friendly interface.",
       github: "https://github.com/seshathri044/expense-tracker-frontend",
-      
       highlights: ["Clean Architecture", "Responsive Design", "Provider State Management"]
     },
     {
@@ -80,7 +79,6 @@ function Portfolio() {
       live: "https://seshathri044.github.io/student-management-system-flutter-hive/",
       highlights: ["Clean Architecture", "Responsive Design", "CI/CD Pipeline"]
     }
-    
   ];
 
   const skills = {
@@ -239,35 +237,36 @@ function Portfolio() {
               )
             ),
             
-           React.createElement('div', { 
-  className: "bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 border border-blue-500/20" 
-},
-  React.createElement('h3', { className: "text-2xl font-bold text-blue-400 mb-4" }, "💼 Experience"),
-  React.createElement('p', { className: "text-gray-300 text-lg mb-2" },
-    "Mobile Application Development Intern",
-    React.createElement('br'),
-    "Kartick IT Solutions | Jun 2025 - Aug 2025"
-  ),
-  React.createElement('div', { className: "mt-4 space-y-2 text-gray-300" },
-    React.createElement('p', { className: "text-sm mb-3" }, 
-      "Gained hands-on experience in Flutter development through self-directed learning and building production-ready personal projects:"
-    ),
-    React.createElement('ul', { className: "space-y-2 text-sm" },
-      [
-        "Built a cross-platform Student Management System with Hive DB featuring CRUD operations and Clean Architecture",
-        "Developed an e-commerce demo app (ShopEase Premium) with cart, checkout, and product listing features",
-        "Implemented CI/CD pipelines using GitHub Actions for automated testing and deployment",
-        "Applied state management patterns (Riverpod/Cubit) to improve code organization and scalability",
-        "Successfully deployed multiple Flutter applications to web platforms (GitHub Pages, Netlify)"
-      ].map((item, i) =>
-        React.createElement('li', { key: i, className: "flex items-start gap-2" },
-          React.createElement('span', { className: "text-cyan-400 mt-1" }, "▹"),
-          item
-        )
-      )
-    )
-  )
-),
+            React.createElement('div', { 
+              className: "bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 border border-blue-500/20" 
+            },
+              React.createElement('h3', { className: "text-2xl font-bold text-blue-400 mb-4" }, "💼 Experience"),
+              React.createElement('p', { className: "text-gray-300 text-lg mb-2" },
+                "Mobile Application Development Intern",
+                React.createElement('br'),
+                "Kartick IT Solutions | Jun 2025 - Aug 2025"
+              ),
+              React.createElement('div', { className: "mt-4 space-y-2 text-gray-300" },
+                React.createElement('p', { className: "text-sm mb-3" }, 
+                  "Gained hands-on experience in Flutter development through self-directed learning and building production-ready personal projects:"
+                ),
+                React.createElement('ul', { className: "space-y-2 text-sm" },
+                  [
+                    "Built a cross-platform Student Management System with Hive DB featuring CRUD operations and Clean Architecture",
+                    "Developed an e-commerce demo app (ShopEase Premium) with cart, checkout, and product listing features",
+                    "Implemented CI/CD pipelines using GitHub Actions for automated testing and deployment",
+                    "Applied state management patterns (Riverpod/Cubit) to improve code organization and scalability",
+                    "Successfully deployed multiple Flutter applications to web platforms (GitHub Pages, Netlify)"
+                  ].map((item, i) =>
+                    React.createElement('li', { key: i, className: "flex items-start gap-2" },
+                      React.createElement('span', { className: "text-cyan-400 mt-1" }, "▹"),
+                      item
+                    )
+                  )
+                )
+              )
+            )
+          ),
 
           React.createElement('div', { 
             className: "bg-gradient-to-br from-slate-800/50 to-blue-900/30 backdrop-blur-sm rounded-2xl p-8 border border-cyan-500/20" 
@@ -469,6 +468,8 @@ function Portfolio() {
   );
 }
 
-// Render the app
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(React.createElement(Portfolio));
+// Render the app - FIXED FOR NETLIFY
+ReactDOM.render(
+  React.createElement(Portfolio),
+  document.getElementById('root')
+);
