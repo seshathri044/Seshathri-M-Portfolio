@@ -239,20 +239,35 @@ function Portfolio() {
               )
             ),
             
-            React.createElement('div', { 
-              className: "bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 border border-blue-500/20" 
-            },
-              React.createElement('h3', { className: "text-2xl font-bold text-blue-400 mb-4" }, "💼 Experience"),
-              React.createElement('p', { className: "text-gray-300 text-lg" },
-                "Mobile Application Development Intern",
-                React.createElement('br'),
-                "Kartick IT Solutions | Jun 2025 - Aug 2025",
-                React.createElement('br'),
-                React.createElement('span', { className: "text-sm text-gray-400 mt-2 block" }, 
-                  "Developed production-ready Flutter applications while mastering Clean Architecture, state management, and CI/CD practices. Built a cross-platform Student Management System with Hive DB, an e-commerce app with full shopping features, and multiple interactive demos. Implemented automated testing pipelines and successfully deployed applications to web platforms."
-              )
-            )
-          ),
+           React.createElement('div', { 
+  className: "bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 border border-blue-500/20" 
+},
+  React.createElement('h3', { className: "text-2xl font-bold text-blue-400 mb-4" }, "💼 Experience"),
+  React.createElement('p', { className: "text-gray-300 text-lg mb-2" },
+    "Mobile Application Development Intern",
+    React.createElement('br'),
+    "Kartick IT Solutions | Jun 2025 - Aug 2025"
+  ),
+  React.createElement('div', { className: "mt-4 space-y-2 text-gray-300" },
+    React.createElement('p', { className: "text-sm mb-3" }, 
+      "Gained hands-on experience in Flutter development through self-directed learning and building production-ready personal projects:"
+    ),
+    React.createElement('ul', { className: "space-y-2 text-sm" },
+      [
+        "Built a cross-platform Student Management System with Hive DB featuring CRUD operations and Clean Architecture",
+        "Developed an e-commerce demo app (ShopEase Premium) with cart, checkout, and product listing features",
+        "Implemented CI/CD pipelines using GitHub Actions for automated testing and deployment",
+        "Applied state management patterns (Riverpod/Cubit) to improve code organization and scalability",
+        "Successfully deployed multiple Flutter applications to web platforms (GitHub Pages, Netlify)"
+      ].map((item, i) =>
+        React.createElement('li', { key: i, className: "flex items-start gap-2" },
+          React.createElement('span', { className: "text-cyan-400 mt-1" }, "▹"),
+          item
+        )
+      )
+    )
+  )
+),
 
           React.createElement('div', { 
             className: "bg-gradient-to-br from-slate-800/50 to-blue-900/30 backdrop-blur-sm rounded-2xl p-8 border border-cyan-500/20" 
