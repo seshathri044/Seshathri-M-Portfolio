@@ -249,8 +249,7 @@ function Portfolio() {
                 "Kartick IT Solutions | Jun 2025 - Aug 2025",
                 React.createElement('br'),
                 React.createElement('span', { className: "text-sm text-gray-400 mt-2 block" }, 
-                  "Built production-grade mobile apps using Flutter, Dart, and Hive DB with Clean Architecture & CI/CD automation"
-                )
+                  "Developed production-ready Flutter applications while mastering Clean Architecture, state management, and CI/CD practices. Built a cross-platform Student Management System with Hive DB, an e-commerce app with full shopping features, and multiple interactive demos. Implemented automated testing pipelines and successfully deployed applications to web platforms."
               )
             )
           ),
