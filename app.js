@@ -276,7 +276,9 @@ function Portfolio() {
                 "Develop cross-platform mobile apps using Flutter with clean architecture",
                 "Implement secure authentication systems with JWT and Spring Security",
                 "Deploy and manage applications using Docker, CI/CD, and cloud platforms",
-                "Solve data structures & algorithms problems to strengthen problem-solving skills"
+                "Solve data structures & algorithms problems to strengthen problem-solving skills",
+                "Work with MySQL database using JPA/Hibernate for efficient data management",
+                "Handle exceptions and validate user input to build reliable and error-free applications",
               ].map((item, i) =>
                 React.createElement('li', { key: i, className: "flex items-start gap-3" },
                   React.createElement('span', { className: "text-cyan-400 mt-1" }, "▹"),
