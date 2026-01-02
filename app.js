@@ -50,20 +50,12 @@ function Portfolio() {
       highlights: ["JWT Authentication", "Real-time Analytics", "Spring Data JPA"]
     },
     {
-      title: "Course Registration System",
-      tech: ["Spring Boot", "MySQL", "React", "Docker"],
-      description: "Full-stack system with course management and student enrollment. Backend deployed on Render, frontend on Netlify.",
-      github: "https://github.com/seshathri044/course-backend",
-      live: "https://course-register-system.netlify.app/",
-      highlights: ["Full-Stack Architecture", "Production Deployment", "CORS Resolution"]
-    },
-    {
-      title: "Student Management System",
-      tech: ["Flutter", "Hive DB", "Clean Architecture"],
-      description: "Cross-platform application with class-wise separation, complete CRUD operations, and CI/CD pipeline using GitHub Actions.",
-      github: "https://github.com/seshathri044/student-management-system-flutter-hive",
-      live: "https://seshathri044.github.io/student-management-system-flutter-hive/",
-      highlights: ["Clean Architecture", "Riverpod State Management", "CI/CD Pipeline"]
+      title: "Expense Tracker Frontend",
+      tech: ["Flutter", "Dart", "Clean Architecture","Provider"],
+      description: "Flutter mobile application to Track expenses, manage income, view real-time analytics, and take control of your finances with a modern, user-friendly interface.",
+      github: "https://github.com/seshathri044/expense-tracker-frontend",
+      
+      highlights: ["Clean Architecture", "Responsive Design", "Provider State Management"]
     },
     {
       title: "Age & Gender Detection",
@@ -73,13 +65,22 @@ function Portfolio() {
       highlights: ["Computer Vision", "Real-time Processing", "Award-Winning"]
     },
     {
-      title: "E-commerce Flutter App",
-      tech: ["Flutter", "Dart", "Clean Architecture"],
-      description: "ShopEase Premium - Fast, responsive e-commerce app with Clean Architecture and web deployment.",
-      github: "https://github.com/seshathri044/E-commerce-Flutter-App",
-      live: "https://seshathri044.github.io/E-commerce-Flutter-App/",
-      highlights: ["Clean Architecture", "Responsive Design", "Web Deployment"]
+      title: "Course Registration System",
+      tech: ["Spring Boot", "MySQL", "React", "Docker"],
+      description: "Full-stack system with course management and student enrollment. Backend deployed on Render, frontend on Netlify.",
+      github: "https://github.com/seshathri044/course-backend",
+      live: "https://course-register-system.netlify.app/",
+      highlights: ["Full-Stack Architecture", "Production Deployment", "CI/CD Pipeline"]
+    },
+    {
+      title: "Student Management System",
+      tech: ["Flutter", "Hive DB", "Clean Architecture"],
+      description: "Cross-platform application with class-wise separation, complete CRUD operations, and CI/CD pipeline using GitHub Actions.",
+      github: "https://github.com/seshathri044/student-management-system-flutter-hive",
+      live: "https://seshathri044.github.io/student-management-system-flutter-hive/",
+      highlights: ["Clean Architecture", "Responsive Design", "CI/CD Pipeline"]
     }
+    
   ];
 
   const skills = {
