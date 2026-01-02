@@ -252,7 +252,6 @@ function Portfolio() {
                 ),
                 React.createElement('ul', { className: "space-y-2 text-sm" },
                   [
-                    "Gained hands-on experience in Flutter mobile application development through self-directed learning and building production-ready personal projects:",
                     "Built a cross-platform Student Management System with Hive DB featuring CRUD operations and Clean Architecture",
                     "Implemented CI/CD pipelines using GitHub Actions for automated testing and deployment",
                     "Successfully deployed multiple Flutter applications to web platforms (GitHub Pages, Netlify)"
