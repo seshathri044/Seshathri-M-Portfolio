@@ -253,8 +253,7 @@ function Portfolio() {
                 React.createElement('ul', { className: "space-y-2 text-sm" },
                   [
                     "Built a cross-platform Student Management System with Hive DB featuring CRUD operations and Clean Architecture",
-                    "Implemented CI/CD pipelines using GitHub Actions for automated testing and deployment",
-                    "Successfully deployed multiple Flutter applications to web platforms (GitHub Pages, Netlify)"
+                    "Implemented CI/CD pipelines using GitHub Actions for automated testing and deployment"
                   ].map((item, i) =>
                     React.createElement('li', { key: i, className: "flex items-start gap-2" },
                       React.createElement('span', { className: "text-cyan-400 mt-1" }, "▹"),
