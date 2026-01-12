@@ -199,8 +199,8 @@ function Portfolio() {
           }, "📧 Email"),
           
           React.createElement('a', { 
-            href: "SESHATHRI_M.pdf",
-            download: "SESHATHRI_M.pdf",
+            href: "SESHATHRI M.pdf",
+            download: "SESHATHRI M.pdf",
             className: "flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg hover:from-purple-500 hover:to-pink-500 transition-all transform hover:scale-105" 
           }, "📄 Download Resume")
         ),
